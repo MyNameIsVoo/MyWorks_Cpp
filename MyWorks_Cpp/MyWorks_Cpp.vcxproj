@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="MyWorks_Cpp.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimplexMethod.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
