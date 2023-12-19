@@ -17,5 +17,5 @@
 # Методы и задачи
 
 ## **0** - Симплекс-метод линейного программирования 
-> Ссылка с описанием: [Симплекс-метод линейного программирования WinForms C++]()
+> Ссылка с описанием: [Симплекс-метод линейного программирования WinForms C++](https://github.com/MyNameIsVoo/SimplexLinearProgrammingMethod_WinForms_Cpp/tree/master)
 
