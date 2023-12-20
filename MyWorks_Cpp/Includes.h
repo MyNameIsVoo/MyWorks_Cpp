@@ -1,9 +1,11 @@
 #pragma once
 
 #include "iostream"
+#include <iomanip> /* setprecision */
 
 using namespace std;
 
+void Rav(int N, float* Rav);
 float Max(float g, float V);
 float* m(float g[10][10], float* V, int i, int p, float* Max_Id);
 float m2(float g[10][10], float* V, int i, int p, int ID);
@@ -80,4 +82,33 @@ float Max4(float Gi, float w, float* V, int a, int z)
 	}
 
 	return max;
+}
+
+void Rav(int N, float* Rav)
+{
+	cout << setprecision(3) << "\n\t\tРаспределение\n\n";
+	for (int i = 0; i < N; i++)
+		cout << "\t " << Rav[i];
+	
+	cout << "\n\n\t\t\n\n";
+	float mx = 0;
+	for (int i = 0; i < N; i++)
+		mx += Rav[i];
+	mx = mx * (1.0 / (float)N);
+	cout << "\t\tМатематическое ожидание [mx] = " << mx << endl;
+
+	float D = 0;
+	for (int i = 0; i < N; i++)
+		D += pow((Rav[i] - mx), 2.0);
+	D = D * (1.0 / ((float)N - 1.0));
+	cout << "\t\tДисперция [D] = " << D << endl;
+
+	float sigma = sqrt(D);
+	cout << "\t\tПлотность [sigma] = " << sigma << endl;
+
+	float sigma_m = sigma / (pow(N, 0.5));
+	cout << "\t\tsigma_m = " << sigma_m << endl;
+
+	float sigma_D = (D * sqrt(2)) / sqrt(N - 1.0);
+	cout << "\t\tsigma_D = " << sigma_D << endl;
 }
