@@ -1,8 +1,6 @@
 #pragma once
 
-#include "iostream"
-
-using namespace std;
+#include "Includes.h"
 
 void MethodMax(int size1, int size2, float* L, float** mas);
 
