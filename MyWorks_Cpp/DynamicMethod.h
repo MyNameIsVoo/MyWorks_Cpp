@@ -21,10 +21,15 @@ void InitDynamicMethod()
 
 	} while (true);
 
+	clock_t Time = clock();
+
 	if (example == 1)
 		Example_1();
 	else
 		Example_2();
+
+	double EndTime = (clock() - (double)Time) / CLOCKS_PER_SEC;
+	cout << "\n\n\t\tВремя выполнения: " << EndTime << endl;
 }
 
 void Example_1()
