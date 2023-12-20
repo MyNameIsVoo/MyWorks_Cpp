@@ -130,6 +130,8 @@
     <ClCompile Include="MyWorks_Cpp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DynamicMethod.h" />
+    <ClInclude Include="Includes.h" />
     <ClInclude Include="SimplexMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
