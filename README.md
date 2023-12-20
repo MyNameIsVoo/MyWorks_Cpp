@@ -19,3 +19,5 @@
 ## **0** - Симплекс-метод линейного программирования 
 > Ссылка с описанием: [Симплекс-метод линейного программирования WinForms C++](https://github.com/MyNameIsVoo/SimplexLinearProgrammingMethod_WinForms_Cpp/tree/master)
 
+## **1** - Метод динамического программирования для решения задач математического программирования 
+> Ссылка с описанием: [Метод динамического программирования для решения задач математического программирования WinForms C++](https://github.com/MyNameIsVoo/DynamicProgrammingMethod_WinForms_Cpp)
