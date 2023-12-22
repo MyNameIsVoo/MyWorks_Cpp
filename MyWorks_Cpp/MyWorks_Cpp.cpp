@@ -2,6 +2,7 @@
 #include "DynamicMethod.h"
 #include "UniformNormalDistribution.h"
 #include "XiSquareDistributionModeling.h"
+#include "WhiteNoise.h"
 
 int main() 
 {
@@ -19,6 +20,7 @@ int main()
 			cout << "\t\t1 - Метод динамического программирования для решения задач математического программирования\n";
 			cout << "\t\t2 - Моделирование независимых случайных величин имеющих равномерное и нормальное распределение (Гауссовское)\n";
 			cout << "\t\t3 - Моделирование распределения Хи-квадрат\n";
+			cout << "\t\t4 - Формирование из белого шума случайного процесса\n";
 
 			cin >> index;
 			if (index < 0)
@@ -42,6 +44,9 @@ int main()
 			break;
 		case 3:
 			InitXiSquareDistributionMethod();
+			break;
+		case 4:
+			InitFormationOfRandomProcessFromWhiteNoise();
 			break;
 		}
 

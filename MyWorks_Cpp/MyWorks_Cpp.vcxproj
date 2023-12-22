@@ -134,6 +134,7 @@
     <ClInclude Include="Includes.h" />
     <ClInclude Include="SimplexMethod.h" />
     <ClInclude Include="UniformNormalDistribution.h" />
+    <ClInclude Include="WhiteNoise.h" />
     <ClInclude Include="XiSquareDistributionModeling.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
