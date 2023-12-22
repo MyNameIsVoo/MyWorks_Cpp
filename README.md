@@ -26,4 +26,4 @@
 > Ссылка с описанием: [Моделирование случайных величин WinForms C++](https://github.com/MyNameIsVoo/UniformNormalDistribution_WinForms_Cpp/tree/master)
 
 ## **4** - Формирование из белого шума случайного процесса с корреляционной функцией
-> Ссылка с описанием: [Формирование из белого шума случайного процесса WinForms C++]()
+> Ссылка с описанием: [Формирование из белого шума случайного процесса WinForms C++](https://github.com/MyNameIsVoo/FormationOfRandomProcessFromWhiteNoise_WinForms_Cpp/tree/master)
