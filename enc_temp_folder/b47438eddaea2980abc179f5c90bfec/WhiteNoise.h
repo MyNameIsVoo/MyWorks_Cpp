@@ -130,7 +130,7 @@ void InitExperimentalMethodForObtainingRandomProcessesFromWhiteNoise()
 {
 	cout << "\t\tЁкспериментальный метод получени€ случайных процесса, описывающего вертикальную турбулентность атмосферы с заданными статистическими характеристиками путем пропускани€ белого шума через формирующий фильтр" << endl << endl;
 
-	ExperimentalMethodForObtainingRandomProcessesFromWhiteNoise(1000, 0, 1, 4, 50, 4, 0.01, 300, 700);
+	ExperimentalMethodForObtainingRandomProcessesFromWhiteNoise(100, 0, 1, 4, 50, 4, 0.01, 300, 700);
 }
 
 void ExperimentalMethodForObtainingRandomProcessesFromWhiteNoise(int N, int left, int right, int option, int time, float sigma, float H, float V, float l)
