@@ -3,6 +3,7 @@
 #include "UniformNormalDistribution.h"
 #include "XiSquareDistributionModeling.h"
 #include "WhiteNoise.h"
+#include "MathematicalModelOfAnUnguidedRocket.h"
 
 int main() 
 {
@@ -22,6 +23,7 @@ int main()
 			cout << "\t\t3 - Моделирование распределения Хи-квадрат\n";
 			cout << "\t\t4 - Формирование из белого шума случайного процесса\n";
 			cout << "\t\t5 - Экспериментальный метод получения случайных процесса, описывающего вертикальную турбулентность атмосферы с заданными статистическими характеристиками путем пропускания белого шума через формирующий фильтр\n";
+			cout << "\t\t6 - Построение математической модели неуправляемого реактивного снаряда (ЛА)\n";
 
 			cin >> index;
 			if (index < 0)
@@ -51,6 +53,9 @@ int main()
 			break;
 		case 5:
 			InitExperimentalMethodForObtainingRandomProcessesFromWhiteNoise();
+			break;
+		case 6:
+			InitMathematicalModelOfAnUnguidedRocket();
 			break;
 		}
 

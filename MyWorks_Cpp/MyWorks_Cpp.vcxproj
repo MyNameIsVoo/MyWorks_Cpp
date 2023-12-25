@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="DynamicMethod.h" />
     <ClInclude Include="Includes.h" />
+    <ClInclude Include="MathematicalModelOfAnUnguidedRocket.h" />
     <ClInclude Include="SimplexMethod.h" />
     <ClInclude Include="UniformNormalDistribution.h" />
     <ClInclude Include="WhiteNoise.h" />
