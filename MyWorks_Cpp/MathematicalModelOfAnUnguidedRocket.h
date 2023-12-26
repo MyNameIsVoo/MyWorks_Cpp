@@ -36,7 +36,7 @@ struct DataSettings
 	// Нормальное распределение
 	int N; // Число запусков
 	int left; // Предел распределения (по умолчанию = - WindSpeed)
-	int right; // Предел распределения (по умолчанию = WindSpeed)
+	int right; // Предел распределения (по умолчанию = WindSpeed) 
 };
 
 void InitMathematicalModelOfAnUnguidedRocket()
