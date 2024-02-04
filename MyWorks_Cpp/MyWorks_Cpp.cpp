@@ -5,6 +5,8 @@
 #include "WhiteNoise.h"
 #include "MathematicalModelOfAnUnguidedRocket.h"
 
+// Тут
+
 int main() 
 {
 	setlocale(LC_ALL, "Russian");
